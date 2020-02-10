@@ -51,9 +51,9 @@ Now, we will preprocess this dataset into a format which wav2letter++ pipelines 
 ```shell
 > pip install sox
 
-> wav2letter/tutorials/librispeech_clean/prepare_data.py --src $W2LDIR/LibriSpeech/ --dst $W2LDIR
+> wav2letter/tutorials/1-librispeech_clean/prepare_data.py --src $W2LDIR/LibriSpeech/ --dst $W2LDIR
 
-> wav2letter/tutorials/librispeech_clean/prepare_lm.py --dst $W2LDIR
+> wav2letter/tutorials/1-librispeech_clean/prepare_lm.py --dst $W2LDIR
 ```
 
 Explore the dataset created
